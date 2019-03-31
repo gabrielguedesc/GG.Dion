@@ -38,7 +38,9 @@ namespace GG.Dion.Domain.Services
             if (!customer.IsValidForRemove())
                 return customer;
 
-            return await _customerRepository.RemoveAsync(customer);
+            await _customerRepository.RemoveAsync(customer);
+
+            return customer;
         }
 
         public async Task<Customer> UpdateAsync(Customer customer)
@@ -46,7 +48,9 @@ namespace GG.Dion.Domain.Services
             if (!customer.IsValidForUpdate())
                 return customer;
 
-            return await _customerRepository.UpdateAsync(customer);
+            await _customerRepository.UpdateAsync(customer);
+
+            return customer;
         }
     }
 }
