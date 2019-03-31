@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GG.Dion.Domain", "src\GG.Dion.Domain\GG.Dion.Domain.csproj", "{06F59E99-97B9-4CEA-A142-FC8F6B32081F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GG.Dion.Infra.Data", "src\GG.Dion.Infra.Data\GG.Dion.Infra.Data.csproj", "{FA9DDE25-102D-401D-9631-639D85A4A73A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{06F59E99-97B9-4CEA-A142-FC8F6B32081F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06F59E99-97B9-4CEA-A142-FC8F6B32081F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06F59E99-97B9-4CEA-A142-FC8F6B32081F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA9DDE25-102D-401D-9631-639D85A4A73A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA9DDE25-102D-401D-9631-639D85A4A73A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA9DDE25-102D-401D-9631-639D85A4A73A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA9DDE25-102D-401D-9631-639D85A4A73A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
