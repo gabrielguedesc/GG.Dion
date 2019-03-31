@@ -8,9 +8,9 @@ namespace GG.Dion.Domain.Interfaces.Services
     public interface ICustomerService
     {
         Task<Customer> AddAsync(Customer customer);
-        Task<Customer> GetByIdAsync(Guid id);
+        Task<Customer> GetByIdAsync(Customer customer);
         Task<Customer> UpdateAsync(Customer customer);
         Task<IEnumerable<Customer>> GetAllAsync();
-        Task RemoveAsync(Guid id);
+        Task<Customer> RemoveAsync(Customer customer);
     }
 }

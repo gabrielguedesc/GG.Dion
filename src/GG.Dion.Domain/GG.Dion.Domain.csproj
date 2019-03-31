@@ -6,8 +6,10 @@
 
   <ItemGroup>
     <Folder Include="ValueObjects\" />
-    <Folder Include="Validations\" />
-    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.2.0" />
   </ItemGroup>
 
 </Project>

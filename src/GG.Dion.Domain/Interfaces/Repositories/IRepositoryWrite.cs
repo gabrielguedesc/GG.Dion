@@ -8,6 +8,6 @@ namespace GG.Dion.Domain.Interfaces.Repositories
     {
         Task<TEntity> AddAsync(TEntity entity);
         Task<TEntity> UpdateAsync(TEntity entity);
-        Task RemoveAsync(Guid id);
+        Task<TEntity> RemoveAsync(TEntity entity);
     }
 }
