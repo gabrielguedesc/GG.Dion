@@ -1,6 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using FluentValidation.Results;
+using System;
 
 namespace GG.Dion.Domain.Entities
 {
@@ -12,5 +11,6 @@ namespace GG.Dion.Domain.Entities
         }
 
         public Guid Id { get; protected set; }
+        public ValidationResult ValidationResult { get; protected set; }
     }
 }
