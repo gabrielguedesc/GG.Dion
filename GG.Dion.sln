@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GG.Dion.Infra.Data", "src\G
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GG.Dion.Presentation.WebApi", "src\GG.Dion.Presentation.WebApi\GG.Dion.Presentation.WebApi.csproj", "{C1B648EB-2380-4387-8F72-621C338E6E31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GG.Dion.Infra.IoC", "src\GG.Dion.Infra.IoC\GG.Dion.Infra.IoC.csproj", "{B57D6411-45C7-4D89-A961-E43320F9DDE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GG.Dion.Application", "src\GG.Dion.Application\GG.Dion.Application.csproj", "{DD70E092-F529-4454-8771-A37D789C5928}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{C1B648EB-2380-4387-8F72-621C338E6E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1B648EB-2380-4387-8F72-621C338E6E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1B648EB-2380-4387-8F72-621C338E6E31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B57D6411-45C7-4D89-A961-E43320F9DDE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B57D6411-45C7-4D89-A961-E43320F9DDE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B57D6411-45C7-4D89-A961-E43320F9DDE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B57D6411-45C7-4D89-A961-E43320F9DDE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD70E092-F529-4454-8771-A37D789C5928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD70E092-F529-4454-8771-A37D789C5928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD70E092-F529-4454-8771-A37D789C5928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD70E092-F529-4454-8771-A37D789C5928}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

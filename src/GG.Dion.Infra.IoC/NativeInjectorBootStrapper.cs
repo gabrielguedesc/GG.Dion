@@ -1,4 +1,6 @@
-﻿using GG.Dion.Domain.Interfaces.Repositories;
+﻿using GG.Dion.Application.Interfaces;
+using GG.Dion.Application.Services;
+using GG.Dion.Domain.Interfaces.Repositories;
 using GG.Dion.Domain.Interfaces.Services;
 using GG.Dion.Domain.Services;
 using GG.Dion.Infra.Data.Context;
@@ -11,6 +13,9 @@ namespace GG.Dion.Infra.IoC
     {
         public static void RegisterServices(IServiceCollection services)
         {
+            // Application
+            services.AddScoped<ICustomerAppService, CustomerAppService>();
+
             // Domain
             services.AddScoped<ICustomerService, CustomerService>();
 
