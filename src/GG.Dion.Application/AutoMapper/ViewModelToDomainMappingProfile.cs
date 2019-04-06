@@ -4,7 +4,7 @@ using GG.Dion.Domain.Entities;
 
 namespace GG.Dion.Application.AutoMapper
 {
-    class ViewModelToDomainMappingProfile : Profile
+    public class ViewModelToDomainMappingProfile : Profile
     {
         public ViewModelToDomainMappingProfile()
         {

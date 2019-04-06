@@ -9,5 +9,6 @@ namespace GG.Dion.Application.Interfaces
     {
         Task<IEnumerable<Customer>> GetAllAsync();
         Task<Customer> AddAsync(CustomerViewModel customerViewModel);
+        Task<Customer> UpdateAsync(CustomerViewModel customerViewModel);
     }
 }
