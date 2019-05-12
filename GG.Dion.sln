@@ -1,17 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.539
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GG.Dion.Domain", "src\GG.Dion.Domain\GG.Dion.Domain.csproj", "{06F59E99-97B9-4CEA-A142-FC8F6B32081F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GG.Dion.Domain", "src\GG.Dion.Domain\GG.Dion.Domain.csproj", "{06F59E99-97B9-4CEA-A142-FC8F6B32081F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GG.Dion.Infra.Data", "src\GG.Dion.Infra.Data\GG.Dion.Infra.Data.csproj", "{FA9DDE25-102D-401D-9631-639D85A4A73A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GG.Dion.Infra.Data", "src\GG.Dion.Infra.Data\GG.Dion.Infra.Data.csproj", "{FA9DDE25-102D-401D-9631-639D85A4A73A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GG.Dion.Presentation.WebApi", "src\GG.Dion.Presentation.WebApi\GG.Dion.Presentation.WebApi.csproj", "{C1B648EB-2380-4387-8F72-621C338E6E31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GG.Dion.Presentation.WebApi", "src\GG.Dion.Presentation.WebApi\GG.Dion.Presentation.WebApi.csproj", "{C1B648EB-2380-4387-8F72-621C338E6E31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GG.Dion.Infra.IoC", "src\GG.Dion.Infra.IoC\GG.Dion.Infra.IoC.csproj", "{B57D6411-45C7-4D89-A961-E43320F9DDE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GG.Dion.Infra.IoC", "src\GG.Dion.Infra.IoC\GG.Dion.Infra.IoC.csproj", "{B57D6411-45C7-4D89-A961-E43320F9DDE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GG.Dion.Application", "src\GG.Dion.Application\GG.Dion.Application.csproj", "{DD70E092-F529-4454-8771-A37D789C5928}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GG.Dion.Application", "src\GG.Dion.Application\GG.Dion.Application.csproj", "{DD70E092-F529-4454-8771-A37D789C5928}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GG.Dion.Domain.Test", "src\GG.Dion.Domain.Test\GG.Dion.Domain.Test.csproj", "{8E033161-0B2A-49D3-9D90-36F24E6AC95C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{DD70E092-F529-4454-8771-A37D789C5928}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD70E092-F529-4454-8771-A37D789C5928}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD70E092-F529-4454-8771-A37D789C5928}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E033161-0B2A-49D3-9D90-36F24E6AC95C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E033161-0B2A-49D3-9D90-36F24E6AC95C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E033161-0B2A-49D3-9D90-36F24E6AC95C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E033161-0B2A-49D3-9D90-36F24E6AC95C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
