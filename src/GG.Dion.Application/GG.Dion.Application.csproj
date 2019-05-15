@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\GG.Dion.Domain\GG.Dion.Domain.csproj" />
+    <ProjectReference Include="..\GG.Dion.Infra.Data\GG.Dion.Infra.Data.csproj" />
   </ItemGroup>
 
 </Project>
