@@ -5,6 +5,7 @@ using GG.Dion.Domain.Interfaces.Services;
 using GG.Dion.Domain.Services;
 using GG.Dion.Infra.Data.Context;
 using GG.Dion.Infra.Data.Repositories;
+using GG.Dion.Infra.Data.UoW;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace GG.Dion.Infra.IoC
@@ -22,6 +23,7 @@ namespace GG.Dion.Infra.IoC
             // Infra - Data
             services.AddScoped<DionProjectContext>();
             services.AddScoped<ICustomerRepository, CustomerRepository>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
         }
     }
 }
